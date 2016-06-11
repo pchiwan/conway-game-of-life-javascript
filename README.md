@@ -2,6 +2,7 @@ Conway's Game of Life
 =====================
 
 The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.
+
 The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
 
 
@@ -25,11 +26,8 @@ The code
 
 This is a Javascript implementation of Conway's Game of Life.
 
-In order to run the game open the 'index.html'. There will be a 100x100 world rendered. Dead cells are in black; alive cells are in white. To change the state of one cell you should click the cell.
-
-When you click 'Tick' it will run one tick one the world applying the rules of the game to the world. If you click 'Autoplay' it will run ticks automatically, stopping when you click 'Tick', or when you click a cell, or when you click on 'Autoplay' again.
-
 
 Specs
 -----
-This code has been fully tested with Jasmine using TDD. To run specs open "SpecRunner.html".
+
+
