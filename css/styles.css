@@ -1,0 +1,45 @@
+body{
+  margin-top: 50px;
+  font-family: Calibri;
+  text-align: center;
+}
+
+#game-of-life{
+  margin: 0 auto;
+}  
+
+#grid{
+  border: 2px solid #888;
+}
+
+#grid td{
+  padding: 10px;
+  border: 1px solid #888;
+}
+
+#grid td.live{
+  background-color: crimson;
+}
+
+.legend{
+  font-size: 24px;
+}
+
+#generations{
+  font-weight: bold;
+}
+
+#message{
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  font-weight: bold;
+  padding: 10px;
+}
