@@ -3,10 +3,10 @@ import Grid from './grid.js';
 /**
  * The jQuery Game of life class
  */
-function GameOfLife ($grid, $score, $message) {
+function GameOfLife (gridSize, $grid, $score, $message) {
 
     const intervalTime = 1000;
-    let g = new Grid(10);
+    let g = new Grid(gridSize);
     let interval = null;
     let generations = 0;
     let prevGrid = '';

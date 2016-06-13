@@ -1,26 +1,35 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
   </head>
   <body>
-    <h1>Conway's Game of Life</h1>
+    <h1 class="title">Conway's Game of Life</h1>
+    <hr>
+    <div class="setup">
+      Choose grid size: <input type="number" id="gridSize" value="10" />
+      <br><br>
+      <button type="button" id="createGrid">Create grid</button>
+    </div>
+    <hr>
     <div class="legend">
-      Generations: <label id="generations"></label>
+      Generations: <label id="generations">0</label>
       <br>
       <label id="message"></label>
       <br><br>      
     </div>
-    <div id="game-of-life" class="center">      
-      <table id="grid" cellpadding="0" cellspacing="0">
-      </table> 
-    </div>
-    <br>
-    <div class="center">
-      <button type="button" id="startGame">Start</button>
-      &nbsp;&nbsp;&nbsp;
-      <button type="button" id="stopGame">Stop</button> 
+    <div id="game-of-life">
+      <div class="center">      
+        <table id="grid" cellpadding="0" cellspacing="0">
+        </table>
       </div>
-
+      <br>
+      <div class="center">
+        <button type="button" id="startGame">Start</button>
+        &nbsp;&nbsp;&nbsp;
+        <button type="button" id="stopGame">Stop</button> 
+      </div>
+    </div>
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dist/game-bundle.js"></script>
   </body>

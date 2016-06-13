@@ -6,8 +6,7 @@ The Game of Life, also known simply as Life, is a cellular automaton devised by 
 The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
 
 
-Rules
------
+## Rules
 
 The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
 
@@ -21,13 +20,30 @@ The universe of the Game of Life is an infinite two-dimensional orthogonal grid 
 
 The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed—births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick (in other words, each generation is a pure function of the preceding one). The rules continue to be applied repeatedly to create further generations.
 
-The code
---------
+
+## Setup
+
+You'll need to have Browserify and Watchify installed globally in your machine:
+```
+npm install browserify watchify -g
+```
+
+And then install local dependencies with:
+```
+npm install
+```
+
+To generate the application's bundle file simply run:
+```
+npm run build
+```
+
+This will keep Browserify running and watching for changes in the source files.
+
+## The code
 
 This is a Javascript implementation of Conway's Game of Life.
 
 
-Specs
------
-
+## Specs
 
