@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Chau+Philomene+One);
+
+body{
+  margin: 40px 100px;
+  font-size: 24px;  
+  font-family: Calibri;
+  text-align: center;
+}
+
+.title{
+  font-family: 'Chau Philomene One', sans-serif;
+  text-shadow: 2px 1px 1px cornflowerblue;
+  color: lightcoral;
+  font-size: 50px;
+}
+
+#game-of-life{
+  margin: 0 auto;
+  display: none;
+}  
+
+#gridSize{
+  font-size: 20px;
+  padding: 2px 4px;
+  width: 80px;
+}
+
+#grid{
+  border: 8px double #888;  
+}
+
+#grid td{
+  padding: 10px;
+  border: 1px solid #888;
+}
+
+#grid td.live{
+  background-color: cornflowerblue;
+}
+
+#generations{
+  font-weight: bold;
+}
+
+#message{
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 5px 10px;
+}
