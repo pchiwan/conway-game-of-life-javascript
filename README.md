@@ -43,7 +43,3 @@ This will keep Browserify running and watching for changes in the source files.
 ## The code
 
 This is a Javascript implementation of Conway's Game of Life.
-
-
-## Specs
-
